@@ -2,16 +2,22 @@ p {
 	font-family: sans-serif;
 }
 
-img {
-
-
+#naviBar {
+	clear: both;
+	position: relative;
+	float: right;
 }
 
-input {
-	
+#dummyButtons {
+	clear: both;
+	position: relative;
+	left: 40%;
+	top: 15%;
+
 }
 
 #dummyButtons p {
+	clear: both;
 	display: inline;
 	background-color: grey;
 	height: 60px;
@@ -20,5 +26,8 @@ input {
 }
 
 footer {
+	position: absolute;
+	bottom: 0px;
 	clear:both;
+	background-color: grey;
 }
