@@ -2,17 +2,44 @@ p {
 	font-family: sans-serif;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
 #naviBar {
 	clear: both;
-	position: relative;
 	float: right;
+}
+
+img {
+	clear: both;
+	position: absolute;
+	left: 36%;
+	top: 25%;
+}
+
+input {
+	clear: both;
+	position: absolute;
+	left: 30%;
+	top: 50%;
 }
 
 #dummyButtons {
 	clear: both;
-	position: relative;
+	position: absolute;
 	left: 40%;
-	top: 15%;
+	top: 55%;
 
 }
 
@@ -21,13 +48,23 @@ p {
 	display: inline;
 	background-color: grey;
 	height: 60px;
-	width: 120px;
+	width: 150px;
 	padding: 15, 50, 15, 50, ;
 }
 
 footer {
 	position: absolute;
 	bottom: 0px;
+	width: 100%;
 	clear:both;
+	display: inline-block;
 	background-color: grey;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
